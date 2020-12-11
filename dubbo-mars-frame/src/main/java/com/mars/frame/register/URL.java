@@ -1,20 +1,18 @@
-package com.mars.api.dto;
+package com.mars.frame.register;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.ToString;
 
 /**
  * @author gang.chen
  * @description
- * @time 2020/12/3 9:13
+ * @time 2020/12/11 9:40
  */
 @Data
-@ToString
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
-    private Integer id;
-    private String name;
+public class URL {
+    private String hostname;
+    private Integer port;
 }

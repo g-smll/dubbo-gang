@@ -23,6 +23,11 @@
             <artifactId>dubbo-mars-api</artifactId>
             <version>0.0.1</version>
         </dependency>
+        <dependency>
+            <groupId>com.gang.mars</groupId>
+            <artifactId>dubbo-mars-frame</artifactId>
+            <version>0.0.1</version>
+        </dependency>
     </dependencies>
 
 
